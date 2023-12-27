@@ -1,8 +1,3 @@
-# NOOO Agency Starter Kit (Wordpress)
-Php Starter Theme modified second the usual development process used by NOOO Agency Srl (Based on [php])
-© Created and Developed by Luca
-
-
 ## Requirements
 
 #### MacOS

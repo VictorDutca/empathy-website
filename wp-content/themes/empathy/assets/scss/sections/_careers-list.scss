@@ -1,0 +1,45 @@
+.careers-list{
+
+    .h-line{
+        margin: 0;
+    }
+    .quicksearch{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid currentColor;
+        color: currentColor;
+        font-size: 2rem;
+        font-family: 'Nunito';
+        outline: none;
+        box-shadow: none;
+        width: 100%;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
+    }
+    &__container{
+        background-color: $white;
+        color: black;
+    }
+    .container-of-careers{
+        &__list-element{
+            transition: .3s ease background-color;
+            h6{
+                font-size: clamp(1.4rem,4vw,1.7rem);
+            }
+            .btn-default{
+                width: 100%;
+            }
+            border-bottom: 1px solid currentColor;
+            &:hover{
+                background-color: #ebeae7;
+            }
+        }
+    }
+    &__single-career{
+        &__element{
+            h5{
+                font-size: clamp(1.8rem,4vw,2rem);
+            }
+        }
+    }
+}

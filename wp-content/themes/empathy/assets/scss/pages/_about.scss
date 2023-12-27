@@ -1,0 +1,8 @@
+.page-template-page-careers{
+    .margin-custom{
+        margin-top: 3.3rem;
+        @include media-breakpoint-down(lg) { 
+            margin-top: 1.5rem;
+        }
+    }
+}

@@ -1,0 +1,82 @@
+// TYPOGRAPHY
+
+// ✅ If you want you could create some variables fort easy font changing
+// Paste the node_modules/bootstrap/scss/_variables.scss in there and change the values you want
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+$font-primary: 'Nunito', sans-serif;
+$font-body: 'Reckless Neue';
+
+
+// * {
+//     /* Better Font Rendering */
+//     // text-rendering: optimizeLegibility; ⚠️ Optional - That Optimize Legibility (slower rendering)
+//     // text-rendering: optimizeSpeed; ⚠️ Optional - That Optimize Speed (faster rendering)
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+//     font-size: 10px;
+// }
+
+// body {
+//     color: $black;
+//     font-family: $font-body;
+// }
+
+// h1,
+// .h1 {
+//     font-size: clamp(3rem,10vw,7rem);
+//     font-family: $font-primary;
+//     text-transform: uppercase;
+//     line-height: 1.1;
+//     font-weight: 400;
+// }
+
+// h2,
+// .h2 {
+//  font-family: $font-primary;
+// }
+
+
+// h3,
+// .h3 {
+//  font-family: $font-primary;
+// }
+
+// h4,
+// .h4 {
+//  font-family: $font-primary;
+// }
+
+// h5,
+// .h5 {
+//  font-family: $font-primary;
+//  font-size: clamp(2rem,4vw,2.4rem);
+//  text-transform: uppercase;
+//  font-weight: 600;
+// }
+
+// h6,
+// .h6{
+//   font-family: $font-primary;
+//   font-size: clamp(1.5rem,4vw,2rem);
+//   text-transform: uppercase;
+//   font-weight: 300;
+
+// }
+
+// p,label{
+//     font-family: $font-body;
+//     font-size: clamp(1.6rem,4vw,2rem);
+//     line-height: 1.25;
+//     font-weight: 400;
+    
+//     @include media-breakpoint-down(lg) { 
+//       letter-spacing: .2px;
+//     }
+
+// }
+
+// b,strong,i,a,li{
+//   font-size: inherit;
+// }

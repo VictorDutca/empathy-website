@@ -1,0 +1,9 @@
+.two-columns-cta{
+    margin-top: 4rem;
+    .btn-default{
+        margin-top: 10rem;
+        @include media-breakpoint-down(lg) { 
+            margin-top: 5rem;
+        }
+    }
+}

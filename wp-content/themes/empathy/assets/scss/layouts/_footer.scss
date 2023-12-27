@@ -1,0 +1,68 @@
+.footer {
+    background-color: $black;
+    color: $white;
+    color: #f7f6f1;
+    width: 100%;
+    .h-line{
+        &:first-child{
+            margin-top: 0;
+            margin-bottom: 4rem;
+        }
+    }
+    a{
+        color: $white;
+        text-decoration: none;
+        &:hover{
+            color: $white;
+        }
+    }
+    h6{
+        a{
+            text-transform: lowercase;
+            font-size: 1.7rem;
+            font-weight: 600;
+        }
+    }
+    .menu-item{
+        font-family: $font-primary;
+        font-size: clamp(1.5rem,4vw,2rem);
+        text-transform: uppercase;
+        font-weight: 300;
+        display: block;
+        width: 100%;
+    }
+    &__credits{
+        padding: 2rem 0;
+        span,a{
+            font-family: $font-primary;
+            font-size: clamp(1.2rem,4vw,1.3rem);
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+    }
+    &__social{
+        i{
+            font-size: 2rem;
+        }
+    }
+    a{
+        position: relative;
+        text-decoration: none;
+        cursor: pointer;
+        &:after{
+            content: '';
+            width:0;
+            height: 1px;
+            background-color: currentColor;
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            transition:.5s ease width;
+        }
+        &:hover{
+           &:after{
+            width: 100%;
+           }
+        }
+    }
+}

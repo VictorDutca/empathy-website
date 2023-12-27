@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: initial;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: $white;
+}
+
+[data-app-viewport]{
+    position: relative;
+    z-index: z('content');
+}
+
+main,
+#app {
+    // position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.app-page {
+    // position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    // overflow: hidden;
+    // pointer-events: none;
+
+    .app-scroll {
+        will-change: transform;
+        z-index: 2;
+    }
+}
+
+
+// Optional 'Visually Hide GRecaptcha'
+.grecaptcha-badge {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+section{
+    padding: 1.5rem;
+    @include media-breakpoint-down(lg) { 
+        padding: 0 1.5rem;
+    }
+}
+.h-line{
+    margin: 4rem 0;
+    width: 100%;
+    display: block;
+    height: 1px;
+    background-color: currentColor;
+}
+.v-line{
+    position: absolute;
+    right: 0;   
+    bottom: 0;
+    width: 1px;
+    display: block;
+    height: 100%;
+    background-color: currentColor;
+    @include media-breakpoint-down(lg) { 
+       display: none;
+       pointer-events: none;
+       opacity: 0;
+    }
+}
+.modal{
+    .modal-dialog{
+        width: 80%;
+        max-width: inherit;
+        @include media-breakpoint-down(lg) { 
+            width: 97%;
+        }
+        .modal-content{
+            border-radius: 0;
+            .modal-body{
+                padding: 0;
+                position: relative;
+                .dark-contact-us__form {
+                    padding: 4rem 0;
+                }
+                .close-button{
+                    position: absolute;
+                    top: 4rem;
+                    right: 4rem;
+                    font-size:3rem;
+                    color: $white;
+                    z-index: 8;
+                }
+                .dark-contact-us{
+                    @include media-breakpoint-down(lg) { 
+                        padding: 0 3rem;
+                    }
+                   
+                }
+            }
+        }
+    }
+}
+
+.btn-modal-menu,.wpml{
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    &:after{
+        content: '';
+        width:0;
+        height: 1px;
+        background-color: currentColor;
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        transition:.5s ease width;
+    }
+    &:hover{
+       &:after{
+        width: 100%;
+       }
+    }
+}

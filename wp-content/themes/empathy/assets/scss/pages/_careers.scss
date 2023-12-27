@@ -1,0 +1,30 @@
+.page-template-page-careers{
+    background-color: $black;
+    color: $white;
+    header{
+        background-color: $black;
+        color: $white;
+    }
+    #main-menu{
+        .main-menu{
+            background-color: $black;
+            color: $white;
+        }
+        .menu-overlay{
+            background-color: rgba($white,0.4);
+            .close-label{
+                background-color: rgba($white,0.4);
+            }
+        }
+    }
+    .custom-line{
+        .h-line{
+            margin: 4rem 0 0 0;
+        }
+    }
+    footer{
+        .h-line{
+            opacity: 0;
+        }
+    }
+}

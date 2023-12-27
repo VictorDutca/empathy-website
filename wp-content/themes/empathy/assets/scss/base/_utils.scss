@@ -1,0 +1,123 @@
+/************** background colors **************/
+/* Mandarino */
+.bg-mandarino-50 {background: #feefe8;}
+.bg-mandarino-100 {background: #fcccb9;}
+.bg-mandarino-200 {background: #fbb497;}
+.bg-mandarino-300 {background: #f99168;}
+.bg-mandarino-400 {background: #f87c4a;}
+.bg-mandarino-500 {background: #f65b1d;}
+.bg-mandarino-600 {background: #e0531a;}
+.bg-mandarino-700 {background: #af4115;}
+.bg-mandarino-800 {background: #873210;}
+.bg-mandarino-900 {background: #67260c;}
+
+/* Lilly */
+.bg-lilly-50 {background: #fbf9ff;}
+.bg-lilly-100 {background: #f4edfd;}
+.bg-lilly-200 {background: #eee4fd;}
+.bg-lilly-300 {background: #e7d8fc;}
+.bg-lilly-400 {background: #e2d1fb;}
+.bg-lilly-500 {background: #dbc5fa;}
+.bg-lilly-600 {background: #c7b3e4;}
+.bg-lilly-700 {background: #9b8cb2;}
+.bg-lilly-800 {background: #786c8a;}
+.bg-lilly-900 {background: #5c5369;}
+
+/* grey */
+.bg-grey-50 {background: #eeeded;}
+.bg-grey-100 {background: #c9c8c8;}
+.bg-grey-200 {background: #afadad;}
+.bg-grey-300 {background: #8a8888;}
+.bg-grey-400 {background: #747171;}
+.bg-grey-500 {background: #514d4d;}
+.bg-grey-600 {background: #4a4646;}
+.bg-grey-700 {background: #3a3737;}
+.bg-grey-800 {background: #2d2a2a;}
+.bg-grey-900 {background: #222020;}
+
+/************** colors **************/
+/* Mandarino */
+.c-mandarino-50 {color: #feefe8;}
+.c-mandarino-100 {color: #fcccb9;}
+.c-mandarino-200 {color: #fbb497;}
+.c-mandarino-300 {color: #f99168;}
+.c-mandarino-400 {color: #f87c4a;}
+.c-mandarino-500 {color: #f65b1d;}
+.c-mandarino-600 {color: #e0531a;}
+.c-mandarino-700 {color: #af4115;}
+.c-mandarino-800 {color: #873210;}
+.c-mandarino-900 {color: #67260c;}
+
+/* Lilly */
+.c-lilly-50 {color: #fbf9ff;}
+.c-lilly-100 {color: #f4edfd;}
+.c-lilly-200 {color: #eee4fd;}
+.c-lilly-300 {color: #e7d8fc;}
+.c-lilly-400 {color: #e2d1fb;}
+.c-lilly-500 {color: #dbc5fa;}
+.c-lilly-600 {color: #c7b3e4;}
+.c-lilly-700 {color: #9b8cb2;}
+.c-lilly-800 {color: #786c8a;}
+.c-lilly-900 {color: #5c5369;}
+
+/* grey */
+.c-grey-50 {color: #eeeded;}
+.c-grey-100 {color: #c9c8c8;}
+.c-grey-200 {color: #afadad;}
+.c-grey-300 {color: #8a8888;}
+.c-grey-400 {color: #747171;}
+.c-grey-500 {color: #514d4d;}
+.c-grey-600 {color: #4a4646;}
+.c-grey-700 {color: #3a3737;}
+.c-grey-800 {color: #2d2a2a;}
+.c-grey-900 {color: #222020;}
+
+/************** FONTS **************/
+/* ogg thin */
+@font-face {
+    font-family: 'OggThin';
+    src: url(../fonts/OggThin.ttf);
+}
+
+.p-oggThin {font-family: 'OggThin';}
+
+/* ogg regular */
+@font-face {
+    font-family: 'OggRegular';
+    src: url(../fonts/OggRegular.ttf);
+}
+
+.p-oggRegular {font-family: 'OggRegular';}
+
+/* ogg medium */
+@font-face {
+    font-family: 'OggMedium';
+    src: url(../fonts/OggMedium.ttf);
+}
+
+.p-oggMedium {font-family: 'OggMedium';}
+
+/* ogg light */
+@font-face {
+    font-family: 'OggLight';
+    src: url(../fonts/OggLight.ttf);
+}
+
+.p-oggLight {font-family: 'OggLight';}
+
+/* ogg bold */
+@font-face {
+    font-family: 'OggBold';
+    src: url(../fonts/OggBold.ttf);
+}
+
+.p-oggBold {font-family: 'OggBold';}
+
+/* helvetica neue */
+/* ogg bold */
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url(../fonts/HelveticaNeue.ttc);
+}
+
+.p-hn {font-family: 'HelveticaNeue';}

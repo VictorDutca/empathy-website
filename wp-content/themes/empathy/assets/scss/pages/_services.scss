@@ -1,0 +1,20 @@
+.page-template-page-services{
+    background-color: $black;
+    color: $white;
+    header{
+        background-color: $black;
+        color: $white;
+    }
+    #main-menu{
+        .main-menu{
+            background-color: $black;
+            color: $white;
+        }
+        .menu-overlay{
+            background-color: rgba($white,0.4);
+            .close-label{
+                background-color: rgba($white,0.4);
+            }
+        }
+    }
+}

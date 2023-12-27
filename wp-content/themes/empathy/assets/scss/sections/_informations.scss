@@ -1,0 +1,56 @@
+.informations{
+    .btn-default{
+        margin-top: 4rem;
+    }
+    .accordion-item{
+        background-color: transparent;
+        border: none;
+        h5{
+            background-color: transparent;
+            .accordion-button{
+                background-color: transparent;
+                font-family: $font-primary;
+                font-size: clamp(2rem,4vw,2.4rem);
+                text-transform: uppercase;
+                font-weight: 600;
+                box-shadow: none;
+                &.collapsed{
+                    &:after{
+
+                        transform: rotate(90deg);
+                    }
+                }
+                &:after{
+                    content: '';
+                    background-image: url("data:image/svg+xml,%3Csvg width='36' height='36' viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' y='35.5' width='35' height='35' transform='rotate(-90 0.5 35.5)' stroke='%23191919'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.125 18C10.125 17.8508 10.1843 17.7078 10.2898 17.6023C10.3952 17.4968 10.5383 17.4375 10.6875 17.4375L23.9546 17.4375L20.4142 13.8983C20.3086 13.7926 20.2493 13.6494 20.2493 13.5C20.2493 13.3506 20.3086 13.2074 20.4142 13.1018C20.5199 12.9961 20.6631 12.9368 20.8125 12.9368C20.9619 12.9368 21.1051 12.9961 21.2108 13.1018L25.7108 17.6018C25.7631 17.654 25.8047 17.7161 25.8331 17.7844C25.8614 17.8528 25.876 17.926 25.876 18C25.876 18.074 25.8614 18.1473 25.8331 18.2156C25.8047 18.2839 25.7631 18.346 25.7108 18.3983L21.2108 22.8983C21.1051 23.0039 20.9619 23.0632 20.8125 23.0632C20.6631 23.0632 20.5199 23.0039 20.4142 22.8983C20.3086 22.7926 20.2493 22.6494 20.2493 22.5C20.2493 22.3506 20.3086 22.2074 20.4142 22.1018L23.9546 18.5625L10.6875 18.5625C10.5383 18.5625 10.3952 18.5033 10.2898 18.3978C10.1843 18.2923 10.125 18.1492 10.125 18Z' fill='%23191919'/%3E%3C/svg%3E%0A");
+                    background-size: contain;
+                    height: 38px;
+                    width: 38px;
+                    transform: rotate(-90deg);
+                    background-repeat: no-repeat;
+                    transition: .4s ease background-image;
+                    margin-left: auto;
+                    transition: .3s ease transform;
+                }
+            }
+        }
+        .accordion-collapse{
+            .accordion-body{
+                opacity: .5;
+                width: 80%;
+                transform: translateY(-5px);
+                padding: 0 1.5rem;
+                transition: 1s ease transform, .3s ease opacity;
+                @include media-breakpoint-down(lg) {
+                    width: 100%;
+                 }
+            }
+            &.show{
+                .accordion-body{
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+            }
+        }
+    }
+}

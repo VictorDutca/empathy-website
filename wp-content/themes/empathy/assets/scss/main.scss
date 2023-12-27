@@ -1,0 +1,43 @@
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+//ABSTRACTS
+@import "abstracts/variables.scss";
+@import 'abstracts/fontface';
+@import 'abstracts/animations';
+
+// // BASE
+@import 'base/colors';
+@import 'base/utils';
+@import 'base/helpers';
+@import 'base/typography';
+//@import 'base/reset';
+
+@import "layouts/general";
+@import "layouts/footer";
+@import "layouts/header";
+
+
+// COMPONENTS
+@import 'layouts/navigation';
+@import 'components/buttons';
+
+// PARTIALS
+
+// SECTIONS
+//@import 'sections/hero';
+
+
+// ARCHIVES
+
+// CATEGORY
+
+// TAXONOMY
+
+// PAGES
+@import 'pages/homepage';
+
+// SINGLE
+@import 'posts/single-project';
+
+
